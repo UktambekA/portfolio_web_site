@@ -6,7 +6,7 @@ const Portfolio = () => {
   const skills = {
     'Data Science': [
       { name: 'Machine Learning', level: 90 },
-      { name: 'Data Visualization', level: 85 },
+      { name: 'Data Visualization', level: 95 },
       { name: 'Statistical Analysis', level: 80 }
     ],
     'Data Analysis': [
@@ -15,7 +15,7 @@ const Portfolio = () => {
       { name: 'SQL', level: 85 }
     ],
     'Python Backend': [
-      { name: 'Django', level: 85 },
+     
       { name: 'Flask', level: 80 },
       { name: 'FastAPI', level: 75 }
     ]
@@ -136,10 +136,10 @@ const Portfolio = () => {
               </div>
               <div className="flex space-x-6 justify-center">
                 {[
-                  { name: 'GitHub', link: '#' },
-                  { name: 'LinkedIn', link: '#' },
-                  { name: 'Instagram', link: '#' },
-                  { name: 'Telegram', link: '#' }
+                  { name: 'GitHub', link: 'https://github.com/UktambekA' },
+                  { name: 'LinkedIn', link: 'https://www.linkedin.com/in/o-ktambek-amonov-47398b2b2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BbfKt%2F0yURwef%2BX5hkoh1%2FA%3D%3D' },
+                  { name: 'Instagram', link: 'https://www.instagram.com/amonovuktambek' },
+                  { name: 'Telegram', link: 'https://t.me/AUktambek' }
                 ].map((social) => (
                   <a 
                     key={social.name} 
