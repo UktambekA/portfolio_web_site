@@ -14,10 +14,7 @@ const Portfolio = () => {
       { name: 'NumPy', level: 90 },
       { name: 'SQL', level: 85 }
     ],
-    'Python Backend': [
-      { name: 'Flask', level: 70 },
-      { name: 'FastAPI', level: 75 }
-    ]
+
   };
 
   const experience = [
@@ -50,14 +47,7 @@ const Portfolio = () => {
       skills: ['Python', 'Streamlit', 'SQL', 'Machine Learning', 'Power BI', 'Statistics and Probability', 'Excel'],
       images: './images/photo_2025-01-28_23-09-35.jpg'
     },
-    {
-      name: 'Python express backend',
-      platform: '42.uz',
-      date: '2025',
-      skills: ['Python', 'Shell', 'Git & GitHub', 'Servers', 'Cloud', 'Datbase & SQL'],
-      images: './images/photo_2025-01-28_23-09-35.jpg'
-
-    }
+   
   ];
 
   // Function to open certificate in new tab
@@ -80,10 +70,10 @@ const Portfolio = () => {
         {/* Header */}
         <header className="text-center mb-16">
           <h1 className="text-6xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">
-            Tech Portfolio
+            Portfolio
           </h1>
           <p className="text-xl text-gray-300">
-            Data Science | Data Analysis | Python Backend Developer
+            Data Science | Data Analysis 
           </p>
         </header>
 
